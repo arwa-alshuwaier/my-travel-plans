@@ -50,10 +50,14 @@
     \cf5 align-items\cf4 : center;\
     \cf5 text-align\cf4 : center;\
 \}\
+.destination:hover h2 {
+    transform: rotate(0deg);
+}
 \
 \cf2 h2\cf4  \{\
     \cf5 margin\cf4 : \cf5 0\cf4 ;\
     \cf5 transform\cf4 : rotate(-\cf5 45deg\cf4 );\
+    transition: transform 0.5s;
     \cf5 text-shadow\cf4 : \cf5 0\cf4  \cf5 0\cf4  \cf5 5px\cf4  \cf5 #01579b\cf4 ;\
 \}\
 \
